@@ -4,5 +4,6 @@ class bcolors:
     RED = '\033[91m'
     WHITE = '\033[0m'
     YELLOW = '\033[93m'
+    GRAY = '\033[90m'
 
-print bcolors.YELLOW + "Hello World" + bcolors.WHITE
+print bcolors.GRAY + "Hello World" + bcolors.WHITE
